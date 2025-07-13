@@ -189,7 +189,7 @@ main {
   justify-content: center;
   color: #957fef;
   font-size: 2.2em;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -330,51 +330,6 @@ main {
   padding: 100px 0;
   background: var(--bg-secondary);
 }
-
-.about-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 4rem;
-  align-items: center;
-}
-
-.about-text p {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
-  line-height: 1.8;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.skill-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--card-bg);
-  padding: 10px 20px;
-  border-radius: 25px;
-  box-shadow: 0 5px 15px var(--shadow);
-  transition: all 0.3s ease;
-}
-
-.skill-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px var(--shadow);
-}
-
-.skill-item i {
-  font-size: 1.2rem;
-  background: var(--primary-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .about-stats {
   align-items: center;
   display: flex;
