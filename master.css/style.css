@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  --primary-gradient: linear-gradient(135deg, #160bb3, #5e3297, #8e44ad, #3e0653);
 }
 
 body {
@@ -131,16 +132,16 @@ main {
 
 .main h2 {
   display: inline;
-  color: #b79ced;
+  color: black;
   font-size: 1.4em;
   font-weight: 500;
   animation: slideInUp 1s ease forwards 0.2s;
 }
 
 .main span {
-  color: #957fef;
   font-size: 3em;
   font-weight: 600;
+  color: #957fef;
 }
 
 .main h3 {
